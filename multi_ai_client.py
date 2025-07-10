@@ -8,12 +8,12 @@ class MultiAIClient:
         self.apis = {
             "deepseek": {
                 "url": "https://api.deepseek.com/v1/chat/completions",
-                "key": "your_deepseek_api_key_here",  # Replace with your actual API key 
+                "key": "your_deepseek_api_key_here",  # Replace with your actual API key sk-fb77dc749e634c8f93c0b78fd7e12381
                 "model": "deepseek-chat"
             },
             "openai": {
                 "url": "https://api.openai.com/v1/chat/completions",
-                "key": "your_openai_api_key_here",  # Replace with your actual OpenAI API key 
+                "key": "your_openai_api_key_here",  # Replace with your actual OpenAI API key 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
                 "model": "gpt-3.5-turbo"
             }
         }
