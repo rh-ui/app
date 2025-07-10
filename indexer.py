@@ -1,18 +1,18 @@
 import json
 import uuid
+import sys
 from opensearchpy import OpenSearch
 from sentence_transformers import SentenceTransformer
 
-# Connexion à OpenSearch
+# Connect to OpenSearch
 client = OpenSearch(
     hosts=[{"host": "localhost", "port": 9200}],
     http_compress=True
 )
 
-# Charger le modèle multilingue
+# Load model
 model = SentenceTransformer("sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2")
 
-# Créer l'index s'il n'existe pas
 INDEX_NAME = "faq"
 VECTOR_DIM = 384
 
@@ -34,14 +34,22 @@ def create_index():
                         "embedding": {
                             "type": "knn_vector",
                             "dimension": VECTOR_DIM
-                        }
+                        },
+                        "meta": {"type": "text"}  # Meta field
                     }
                 }
             }
         )
-        print("✅ Index 'faq' créé.")
+        print(f"✅ Index '{INDEX_NAME}' created.")
     else:
-        print("ℹ️ Index 'faq' existe déjà.")
+        print(f"ℹ️ Index '{INDEX_NAME}' already exists.")
+
+def delete_index():
+    if client.indices.exists(index=INDEX_NAME):
+        client.indices.delete(index=INDEX_NAME)
+        print(f"🗑 Index '{INDEX_NAME}' deleted.")
+    else:
+        print(f"ℹ️ Index '{INDEX_NAME}' does not exist.")
 
 def index_faq_data(file_path):
     with open(file_path, "r", encoding="utf-8") as f:
@@ -49,26 +57,61 @@ def index_faq_data(file_path):
 
     total = 0
     for entry in dataset:
-        questions = entry["question"]
-        reponses = entry["reponse"]
+        questions = entry.get("question", {})
+        reponses = entry.get("reponse", {})
+        metas = entry.get("meta", {})
 
         for lang in questions:
             for question in questions[lang]:
-                if lang not in reponses:
+                if lang not in reponses or not reponses[lang]:
                     continue
                 answer = reponses[lang][0]
                 embedding = model.encode(question).tolist()
+
                 doc = {
                     "question": question,
                     "answer": answer,
                     "lang": lang,
                     "embedding": embedding
                 }
+
+                if metas and lang in metas and metas[lang]:
+                    doc["meta"] = metas[lang][0]
+
                 client.index(index=INDEX_NAME, id=str(uuid.uuid4()), body=doc)
                 total += 1
 
-    print(f"✅ {total} questions indexées dans OpenSearch.")
+    print(f"✅ Indexed {total} questions into OpenSearch.")
+
+def print_help():
+    print("""
+Usage: python indexer.py [command]
+
+Commands:
+  create       Create index (if not exists)
+  index        Index data from dataset.json
+  reset        Delete index, recreate it, and index data
+  delete       Delete the index
+  help         Show this help message
+""")
 
 if __name__ == "__main__":
-    create_index()
-    index_faq_data("contact_final.json")
+    if len(sys.argv) < 2:
+        print_help()
+    else:
+        cmd = sys.argv[1].lower()
+        if cmd == "create":
+            create_index()
+        elif cmd == "index":
+            index_faq_data("dataset.json")
+        elif cmd == "reset":
+            delete_index()
+            create_index()
+            index_faq_data("dataset.json")
+        elif cmd == "delete":
+            delete_index()
+        elif cmd == "help":
+            print_help()
+        else:
+            print(f"❓ Unknown command: {cmd}")
+            print_help()
