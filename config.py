@@ -1,6 +1,6 @@
 # DeepSeek API Configuration
 DEEPSEEK_API_URL = "https://api.deepseek.com/v1/chat/completions"
-DEEPSEEK_API_KEY = "your_deepseek_api_key_here"  # Replace with your actual API key sk-fb77dc749e634c8f93c0b78fd7e12381
+DEEPSEEK_API_KEY = "your_deepseek_api_key_here"  
 
 # System prompt for DeepSeek
 DEEPSEEK_SYSTEM_PROMPT = """You are a helpful assistant that analyzes FAQ matches and provides the most relevant answer.
