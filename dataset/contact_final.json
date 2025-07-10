@@ -1,0 +1,1385 @@
+[
+  {
+    "intent": "faculty_general_info",
+    "question": {
+      "fr": [
+        "Quelle est la faculté des Sciences de l'Université Mohammed Premier?",
+        "Informations sur la faculté des Sciences UMP",
+        "Comment contacter la faculté des Sciences?"
+      ],
+      "en": [
+        "What is the Faculty of Science at Mohammed Premier University?",
+        "Information about UMP Faculty of Science",
+        "How to contact the Faculty of Science?"
+      ],
+      "ar": [
+        "ما هي كلية العلوم بجامعة محمد الأول؟",
+        "معلومات عن كلية العلوم UMP",
+        "كيف يمكن الاتصال بكلية العلوم؟"
+      ],
+      "amz": [
+        "Mani tga Tamazirt n Tussna deg UMP?",
+        "Talɣut ɣef Tamazirt n Tussna UMP",
+        "Amek ara tzemreɣ ad ɣeɣ Tamazirt n Tussna?"
+      ]
+    },
+    "reponse": {
+      "fr": [
+        "La Faculté des Sciences de l'Université Mohammed Premier (FSO UMP) est située au Boulevard Mohamed VI, BP 717, 60000 Oujda, Maroc."
+      ],
+      "en": [
+        "The Faculty of Science at Mohammed Premier University (FSO UMP) is located at Boulevard Mohamed VI, BP 717, 60000 Oujda, Morocco."
+      ],
+      "ar": [
+        "كلية العلوم بجامعة محمد الأول (FSO UMP) تقع في شارع محمد السادس، ص.ب 717، 60000 وجدة، المغرب."
+      ],
+      "amz": [
+        "Tamazirt n Tussna deg UMP (FSO UMP) tezga-d deg Boulevard Mohamed VI, BP 717, 60000 Oujda, Lmerruk."
+      ]
+    },
+    "meta": {
+      "fr": [
+        "http://fso.ump.ma/"
+      ],
+      "en": [
+        "http://fso.ump.ma/"
+      ],
+      "ar": [
+        "http://fso.ump.ma/"
+      ],
+      "amz": [
+        "http://fso.ump.ma/"
+      ]
+    }
+  },
+  {
+    "intent": "faculty_main_contact",
+    "question": {
+      "fr": [
+        "Quel est le numéro de téléphone principal de la faculté?",
+        "Comment appeler la faculté des Sciences?",
+        "Contact téléphonique de la FSO UMP"
+      ],
+      "en": [
+        "What is the main phone number of the faculty?",
+        "How to call the Faculty of Science?",
+        "FSO UMP phone contact"
+      ],
+      "ar": [
+        "ما هو رقم الهاتف الرئيسي للكلية؟",
+        "كيف يمكن الاتصال بكلية العلوم؟",
+        "معلومات الاتصال الهاتفي لكلية العلوم"
+      ],
+      "amz": [
+        "Mani tga udris n tiliɣri amenzu n temdint?",
+        "Amek ara ssawleɣ Tamazirt n Tussna?",
+        "Anermes n tiliɣri n FSO UMP"
+      ]
+    },
+    "reponse": {
+      "fr": [
+        "Le numéro principal de la faculté est le +212 536 500 600. Vous pouvez aussi envoyer un email à contact@fso.ump.ma."
+      ],
+      "en": [
+        "The faculty's main phone number is +212 536 500 600. You can also send an email to contact@fso.ump.ma."
+      ],
+      "ar": [
+        "الرقم الرئيسي للكلية هو +212 536 500 600. يمكنك أيضًا إرسال بريد إلكتروني إلى contact@fso.ump.ma."
+      ],
+      "amz": [
+        "Udrus amenzu n temdint d +212 536 500 600. Tzemred ad tazned email ɣer contact@fso.ump.ma."
+      ]
+    },
+    "meta": {
+      "fr": [
+        "http://fso.ump.ma/"
+      ],
+      "en": [
+        "http://fso.ump.ma/"
+      ],
+      "ar": [
+        "http://fso.ump.ma/"
+      ],
+      "amz": [
+        "http://fso.ump.ma/"
+      ]
+    }
+  },
+  {
+    "intent": "registrar_office_contact",
+    "question": {
+      "fr": [
+        "Comment contacter le service de scolarité?",
+        "Numéro de la scolarité de la FSO",
+        "Email du service des inscriptions"
+      ],
+      "en": [
+        "How to contact the registrar's office?",
+        "FSO registrar phone number",
+        "Admissions office email"
+      ],
+      "ar": [
+        "كيف يمكن الاتصال بمكتب التسجيل؟",
+        "رقم هاتف مكتب التسجيل بكلية العلوم",
+        "بريد مكتب القبول"
+      ],
+      "amz": [
+        "Amek ara ɣeɣ uḥuddu n unermas?",
+        "Udrus n tiliɣri n unermas n FSO",
+        "Email n uḥuddu n unermas"
+      ]
+    },
+    "reponse": {
+      "fr": [
+        "Le service de scolarité peut être contacté au +212 536 500 601 ou par email à scolarite@fso.ump.ma."
+      ],
+      "en": [
+        "The registrar's office can be contacted at +212 536 500 601 or by email at scolarite@fso.ump.ma."
+      ],
+      "ar": [
+        "يمكن الاتصال بمكتب التسجيل على الرقم +212 536 500 601 أو عبر البريد الإلكتروني scolarite@fso.ump.ma."
+      ],
+      "amz": [
+        "Aḥuddu n unermas yezmer ad yettwaɣer s +212 536 500 601 neɣ s email ɣer scolarite@fso.ump.ma."
+      ]
+    }
+  },
+  {
+    "intent": "administration_contact",
+    "question": {
+      "fr": [
+        "Comment joindre l'administration de la faculté?",
+        "Contacts du service administratif",
+        "Email de l'administration de la FSO"
+      ],
+      "en": [
+        "How to reach the faculty administration?",
+        "Administrative office contacts",
+        "FSO administration email"
+      ],
+      "ar": [
+        "كيف يمكن الوصول إلى إدارة الكلية؟",
+        "معلومات الاتصال بالمكتب الإداري",
+        "بريد إدارة الكلية"
+      ],
+      "amz": [
+        "Amek ara awḍeɣ ɣer unabaḍ n temdint?",
+        "Inermisen n uḥuddu anabaḍan",
+        "Email n unabaḍ n FSO"
+      ]
+    },
+    "reponse": {
+      "fr": [
+        "L'administration de la faculté est joignable au +212 536 500 602 ou par email à admin@fso.ump.ma."
+      ],
+      "en": [
+        "The faculty administration can be reached at +212 536 500 602 or by email at admin@fso.ump.ma."
+      ],
+      "ar": [
+        "يمكن الوصول إلى إدارة الكلية على الرقم +212 536 500 602 أو عبر البريد الإلكتروني admin@fso.ump.ma."
+      ],
+      "amz": [
+        "Anabaḍ n temdint yezmer ad yettwaɣer s +212 536 500 602 neɣ s email ɣer admin@fso.ump.ma."
+      ]
+    }
+  },
+  {
+    "intent": "library_contact",
+    "question": {
+      "fr": [
+        "Comment contacter la bibliothèque universitaire?",
+        "Numéro de la bibliothèque de la FSO",
+        "Adresse secondaire de la bibliothèque"
+      ],
+      "en": [
+        "How to contact the university library?",
+        "FSO library phone number",
+        "Library secondary address"
+      ],
+      "ar": [
+        "كيف يمكن الاتصال بالمكتبة الجامعية؟",
+        "رقم هاتف مكتبة كلية العلوم",
+        "عنوان المكتبة الثانوي"
+      ],
+      "amz": [
+        "Amek ara ɣeɣ tamsult n temdint?",
+        "Udrus n tiliɣri n tamsult n FSO",
+        "Tansa tis snat n tamsult"
+      ]
+    },
+    "reponse": {
+      "fr": [
+        "La bibliothèque peut être contactée au +212 536 500 610 ou par email à bibliotheque@fso.ump.ma. Son adresse secondaire est BP 457 - Campus universitaire, 60000 Oujda, Maroc."
+      ],
+      "en": [
+        "The library can be contacted at +212 536 500 610 or by email at bibliotheque@fso.ump.ma. Its secondary address is BP 457 - University Campus, 60000 Oujda, Morocco."
+      ],
+      "ar": [
+        "يمكن الاتصال بالمكتبة على الرقم +212 536 500 610 أو عبر البريد الإلكتروني bibliotheque@fso.ump.ma. عنوانها الثانوي هو ص.ب 457 - الحرم الجامعي، 60000 وجدة، المغرب."
+      ],
+      "amz": [
+        "Tamsult tezmer ad tettwaɣer s +212 536 500 610 neɣ s email ɣer bibliotheque@fso.ump.ma. Tansa-s tis snat d BP 457 - Campus universitaire, 60000 Oujda, Lmerruk."
+      ]
+    }
+  },
+  {
+    "intent": "it_support_contact",
+    "question": {
+      "fr": [
+        "Comment contacter le service informatique?",
+        "Support technique de la faculté",
+        "Problèmes informatiques à la FSO"
+      ],
+      "en": [
+        "How to contact the IT department?",
+        "Faculty technical support",
+        "IT issues at FSO"
+      ],
+      "ar": [
+        "كيف يمكن الاتصال بقسم تكنولوجيا المعلومات؟",
+        "الدعم الفني للكلية",
+        "مشاكل تكنولوجيا المعلومات بكلية العلوم"
+      ],
+      "amz": [
+        "Amek ara ɣeɣ aḥuddu n tetiknulujit?",
+        "Tallalt tignitin n temdint",
+        "Iɣewwaṛen n tetiknulujit deg FSO"
+      ]
+    },
+    "reponse": {
+      "fr": [
+        "Le service informatique est disponible au +212 536 500 620 ou par email à support@fso.ump.ma pour toute assistance technique."
+      ],
+      "en": [
+        "The IT department is available at +212 536 500 620 or by email at support@fso.ump.ma for any technical assistance."
+      ],
+      "ar": [
+        "قسم تكنولوجيا المعلومات متاح على الرقم +212 536 500 620 أو عبر البريد الإلكتروني support@fso.ump.ma لأي مساعدة فنية."
+      ],
+      "amz": [
+        "Aḥuddu n tetiknulujit yella deg +212 536 500 620 neɣ s email ɣer support@fso.ump.ma i yal tallalt tignitin."
+      ]
+    }
+  },
+  {
+    "intent": "director_contact",
+    "question": {
+      "fr": [
+        "Comment contacter le directeur de la faculté?",
+        "Coordonnées du directeur de la FSO",
+        "Email du directeur"
+      ],
+      "en": [
+        "How to contact the faculty director?",
+        "FSO director contact information",
+        "Director's email"
+      ],
+      "ar": [
+        "كيف يمكن الاتصال بمدير الكلية؟",
+        "معلومات الاتصال بمدير كلية العلوم",
+        "بريد المدير"
+      ],
+      "amz": [
+        "Amek ara ɣeɣ anebḍaḍ n temdint?",
+        "Inermisen n unebḍaḍ n FSO",
+        "Email n unebḍaḍ"
+      ]
+    },
+    "reponse": {
+      "fr": [
+        "Le directeur de la faculté peut être contacté au +212 536 500 603 ou par email à directeur@fso.ump.ma."
+      ],
+      "en": [
+        "The faculty director can be contacted at +212 536 500 603 or by email at directeur@fso.ump.ma."
+      ],
+      "ar": [
+        "يمكن الاتصال بمدير الكلية على الرقم +212 536 500 603 أو عبر البريد الإلكتروني directeur@fso.ump.ma."
+      ],
+      "amz": [
+        "Anebdad n temdint yezmer ad yettwaɣer s +212 536 500 603 neɣ s email ɣer directeur@fso.ump.ma."
+      ]
+    }
+  },
+  {
+    "intent": "pedagogical_responsible_contact",
+    "question": {
+      "fr": [
+        "Qui est le responsable pédagogique et comment le contacter?",
+        "Contact du responsable des études",
+        "Email du service pédagogique"
+      ],
+      "en": [
+        "Who is the pedagogical responsible and how to contact them?",
+        "Studies responsible contact",
+        "Pedagogical service email"
+      ],
+      "ar": [
+        "من هو المسؤول التربوي وكيف يمكن الاتصال به؟",
+        "معلومات الاتصال بالمسؤول عن الدراسات",
+        "بريد الخدمة التربوية"
+      ],
+      "amz": [
+        "Anwa i d anermas n tsenselkimt? Amek ara ɣeɣ?",
+        "Anermas n yiselmaden",
+        "Email n uḥuddu n tsenselkimt"
+      ]
+    },
+    "reponse": {
+      "fr": [
+        "Le responsable pédagogique peut être joint au +212 536 500 604 ou par email à pedagogie@fso.ump.ma."
+      ],
+      "en": [
+        "The pedagogical responsible can be reached at +212 536 500 604 or by email at pedagogie@fso.ump.ma."
+      ],
+      "ar": [
+        "يمكن الوصول إلى المسؤول التربوي على الرقم +212 536 500 604 أو عبر البريد الإلكتروني pedagogie@fso.ump.ma."
+      ],
+      "amz": [
+        "Anermas n tsenselkimt yezmer ad yettwaɣer s +212 536 500 604 neɣ s email ɣer pedagogie@fso.ump.ma."
+      ]
+    }
+  },
+  {
+    "intent": "math_department_contact",
+    "question": {
+      "fr": [
+        "Comment contacter le département de Mathématiques?",
+        "Coordonnées du département Maths",
+        "Email des mathématiques"
+      ],
+      "en": [
+        "How to contact the Mathematics department?",
+        "Math department contact information",
+        "Mathematics email"
+      ],
+      "ar": [
+        "كيف يمكن الاتصال بقسم الرياضيات؟",
+        "معلومات الاتصال بقسم الرياضيات",
+        "بريد الرياضيات"
+      ],
+      "amz": [
+        "Amek ara ɣeɣ aḥuddu n tusnakt?",
+        "Inermisen n uḥuddu n tusnakt",
+        "Email n tusnakt"
+      ]
+    },
+    "reponse": {
+      "fr": [
+        "Le département de Mathématiques est joignable au +212 536 500 630 ou par email à math@fso.ump.ma."
+      ],
+      "en": [
+        "The Mathematics department can be reached at +212 536 500 630 or by email at math@fso.ump.ma."
+      ],
+      "ar": [
+        "يمكن الاتصال بقسم الرياضيات على الرقم +212 536 500 630 أو عبر البريد الإلكتروني math@fso.ump.ma."
+      ],
+      "amz": [
+        "Aḥuddu n tusnakt yezmer ad yettwaɣer s +212 536 500 630 neɣ s email ɣer math@fso.ump.ma."
+      ]
+    }
+  },
+  {
+    "intent": "physics_department_contact",
+    "question": {
+      "fr": [
+        "Comment contacter le département de Physique?",
+        "Coordonnées du département de Physique",
+        "Email de la physique"
+      ],
+      "en": [
+        "How to contact the Physics department?",
+        "Physics department contact information",
+        "Physics email"
+      ],
+      "ar": [
+        "كيف يمكن الاتصال بقسم الفيزياء؟",
+        "معلومات الاتصال بقسم الفيزياء",
+        "بريد الفيزياء"
+      ],
+      "amz": [
+        "Amek ara ɣeɣ aḥuddu n tafizikt?",
+        "Inermisen n uḥuddu n tafizikt",
+        "Email n tafizikt"
+      ]
+    },
+    "reponse": {
+      "fr": [
+        "Le département de Physique peut être contacté au +212 536 500 640 ou par email à physique@fso.ump.ma."
+      ],
+      "en": [
+        "The Physics department can be contacted at +212 536 500 640 or by email at physique@fso.ump.ma."
+      ],
+      "ar": [
+        "يمكن الاتصال بقسم الفيزياء على الرقم +212 536 500 640 أو عبر البريد الإلكتروني physique@fso.ump.ma."
+      ],
+      "amz": [
+        "Aḥuddu n tafizikt yezmer ad yettwaɣer s +212 536 500 640 neɣ s email ɣer physique@fso.ump.ma."
+      ]
+    }
+  },
+  {
+    "intent": "chemistry_department_contact",
+    "question": {
+      "fr": [
+        "Comment contacter le département de Chimie?",
+        "Coordonnées du département de Chimie",
+        "Email de la chimie"
+      ],
+      "en": [
+        "How to contact the Chemistry department?",
+        "Chemistry department contact information",
+        "Chemistry email"
+      ],
+      "ar": [
+        "كيف يمكن الاتصال بقسم الكيمياء؟",
+        "معلومات الاتصال بقسم الكيمياء",
+        "بريد الكيمياء"
+      ],
+      "amz": [
+        "Amek ara ɣeɣ aḥuddu n takimya?",
+        "Inermisen n uḥuddu n takimya",
+        "Email n takimya"
+      ]
+    },
+    "reponse": {
+      "fr": [
+        "Le département de Chimie est joignable au +212 536 500 650 ou par email à chimie@fso.ump.ma."
+      ],
+      "en": [
+        "The Chemistry department can be reached at +212 536 500 650 or by email at chimie@fso.ump.ma."
+      ],
+      "ar": [
+        "يمكن الاتصال بقسم الكيمياء على الرقم +212 536 500 650 أو عبر البريد الإلكتروني chimie@fso.ump.ma."
+      ],
+      "amz": [
+        "Aḥuddu n takimya yezmer ad yettwaɣer s +212 536 500 650 neɣ s email ɣer chimie@fso.ump.ma."
+      ]
+    }
+  },
+  {
+    "intent": "biology_department_contact",
+    "question": {
+      "fr": [
+        "Comment contacter le département de Biologie?",
+        "Coordonnées du département de Biologie",
+        "Email de la biologie"
+      ],
+      "en": [
+        "How to contact the Biology department?",
+        "Biology department contact information",
+        "Biology email"
+      ],
+      "ar": [
+        "كيف يمكن الاتصال بقسم البيولوجيا؟",
+        "معلومات الاتصال بقسم البيولوجيا",
+        "بريد البيولوجيا"
+      ],
+      "amz": [
+        "Amek ara ɣeɣ aḥuddu n tussnant?",
+        "Inermisen n uḥuddu n tussnant",
+        "Email n tussnant"
+      ]
+    },
+    "reponse": {
+      "fr": [
+        "Le département de Biologie peut être contacté au +212 536 500 660 ou par email à biologie@fso.ump.ma."
+      ],
+      "en": [
+        "The Biology department can be contacted at +212 536 500 660 or by email at biologie@fso.ump.ma."
+      ],
+      "ar": [
+        "يمكن الاتصال بقسم البيولوجيا على الرقم +212 536 500 660 أو عبر البريد الإلكتروني biologie@fso.ump.ma."
+      ],
+      "amz": [
+        "Aḥuddu n tussnant yezmer ad yettwaɣer s +212 536 500 660 neɣ s email ɣer biologie@fso.ump.ma."
+      ]
+    }
+  },
+  {
+    "intent": "computer_science_department_contact",
+    "question": {
+      "fr": [
+        "Comment contacter le département d'Informatique?",
+        "Coordonnées du département Info",
+        "Email de l'informatique"
+      ],
+      "en": [
+        "How to contact the Computer Science department?",
+        "CS department contact information",
+        "Computer Science email"
+      ],
+      "ar": [
+        "كيف يمكن الاتصال بقسم المعلوماتية؟",
+        "معلومات الاتصال بقسم المعلوماتية",
+        "بريد المعلوماتية"
+      ],
+      "amz": [
+        "Amek ara ɣeɣ aḥuddu n tignit?",
+        "Inermisen n uḥuddu n tignit",
+        "Email n tignit"
+      ]
+    },
+    "reponse": {
+      "fr": [
+        "Le département d'Informatique est joignable au +212 536 500 670 ou par email à info@fso.ump.ma."
+      ],
+      "en": [
+        "The Computer Science department can be reached at +212 536 500 670 or by email at info@fso.ump.ma."
+      ],
+      "ar": [
+        "يمكن الاتصال بقسم المعلوماتية على الرقم +212 536 500 670 أو عبر البريد الإلكتروني info@fso.ump.ma."
+      ],
+      "amz": [
+        "Aḥuddu n tignit yezmer ad yettwaɣer s +212 536 500 670 neɣ s email ɣer info@fso.ump.ma."
+      ]
+    }
+  },
+  {
+    "intent": "emergency_security_contact",
+    "question": {
+      "fr": [
+        "Quel est le numéro d'urgence pour la sécurité?",
+        "Numéro de sécurité du campus",
+        "Qui appeler en cas d'urgence sécurité?"
+      ],
+      "en": [
+        "What is the emergency number for security?",
+        "Campus security number",
+        "Who to call for security emergencies?"
+      ],
+      "ar": [
+        "ما هو رقم الطوارئ للأمن؟",
+        "رقم أمن الحرم الجامعي",
+        "من تتصل به في حالات الطوارئ الأمنية؟"
+      ],
+      "amz": [
+        "Mani tga tiliɣri n lḥal n laman?",
+        "Udrus n laman n temdint",
+        "Anwa ara ssawleɣ deg lḥalat n laman?"
+      ]
+    },
+    "reponse": {
+      "fr": [
+        "En cas d'urgence sécurité, composez le +212 536 500 699."
+      ],
+      "en": [
+        "For security emergencies, dial +212 536 500 699."
+      ],
+      "ar": [
+        "في حالات الطوارئ الأمنية، اتصل بالرقم +212 536 500 699."
+      ],
+      "amz": [
+        "Deg lḥalat n laman, ssawel ɣef +212 536 500 699."
+      ]
+    }
+  },
+  {
+    "intent": "emergency_medical_contact",
+    "question": {
+      "fr": [
+        "Quel est le numéro d'urgence médicale?",
+        "Numéro de l'infirmerie universitaire",
+        "Qui appeler en cas d'urgence médicale?"
+      ],
+      "en": [
+        "What is the medical emergency number?",
+        "University infirmary number",
+        "Who to call for medical emergencies?"
+      ],
+      "ar": [
+        "ما هو رقم الطوارئ الطبية؟",
+        "رقم المستوصف الجامعي",
+        "من تتصل به في حالات الطوارئ الطبية؟"
+      ],
+      "amz": [
+        "Mani tga tiliɣri n lḥal n tussna?",
+        "Udrus n tinfirmerit n temdint",
+        "Anwa ara ssawleɣ deg lḥalat n tussna?"
+      ]
+    },
+    "reponse": {
+      "fr": [
+        "En cas d'urgence médicale, composez le +212 536 500 700 pour joindre l'infirmerie universitaire."
+      ],
+      "en": [
+        "For medical emergencies, dial +212 536 500 700 to reach the university infirmary."
+      ],
+      "ar": [
+        "في حالات الطوارئ الطبية، اتصل بالرقم +212 536 500 700 للوصول إلى المستوصف الجامعي."
+      ],
+      "amz": [
+        "Deg lḥalat n tussna, ssawel ɣef +212 536 500 700 i wakken ad teɣeḍ ɣer tinfirmerit n temdint."
+      ]
+    }
+  },
+  {
+    "intent": "faculty_fax_number",
+    "question": {
+      "fr": [
+        "Quel est le numéro de fax de la faculté?",
+        "Fax de la FSO UMP",
+        "Comment envoyer un fax à la faculté?"
+      ],
+      "en": [
+        "What is the faculty's fax number?",
+        "FSO UMP fax",
+        "How to send a fax to the faculty?"
+      ],
+      "ar": [
+        "ما هو رقم الفاكس للكلية؟",
+        "فاكس كلية العلوم UMP",
+        "كيف ترسل فاكسًا إلى الكلية؟"
+      ],
+      "amz": [
+        "Mani tga tiliɣri n fax n temdint?",
+        "Fax n FSO UMP",
+        "Amek ara tazneḍ fax ɣer temdint?"
+      ]
+    },
+    "reponse": {
+      "fr": [
+        "Le numéro de fax de la faculté est le +212536500603."
+      ],
+      "en": [
+        "The faculty's fax number is +212536500603."
+      ],
+      "ar": [
+        "رقم فاكس الكلية هو +212536500603."
+      ],
+      "amz": [
+        "Udrus n fax n temdint d +212536500603."
+      ]
+    }
+  },
+  {
+    "intent": "faculty_alternative_phones",
+    "question": {
+      "fr": [
+        "Quels sont les autres numéros de téléphone de la faculté?",
+        "Numéros secondaires de la FSO",
+        "Autres moyens de joindre la faculté"
+      ],
+      "en": [
+        "What are the other phone numbers of the faculty?",
+        "FSO alternative numbers",
+        "Other ways to reach the faculty"
+      ],
+      "ar": [
+        "ما هي أرقام الهاتف الأخرى للكلية؟",
+        "أرقام بديلة لكلية العلوم",
+        "طرق أخرى للاتصال بالكلية"
+      ],
+      "amz": [
+        "Mani llan idrisen nniḍen n tiliɣri n temdint?",
+        "Idrisen nniḍen n FSO",
+        "Ibriden nniḍen i wakken ad teɣeḍ ɣer temdint"
+      ]
+    },
+    "reponse": {
+      "fr": [
+        "La faculté dispose également des numéros secondaires suivants : +212536500601 et +212536500602."
+      ],
+      "en": [
+        "The faculty also has the following alternative numbers: +212536500601 and +212536500602."
+      ],
+      "ar": [
+        "تمتلك الكلية أيضًا الأرقام البديلة التالية: +212536500601 و +212536500602."
+      ],
+      "amz": [
+        "Temdint tesɛa daɣen idrisen nniḍen: +212536500601 d +212536500602."
+      ]
+    }
+  },
+  {
+    "intent": "university_presidency_info",
+    "question": {
+      "fr": [
+        "Quelles sont les coordonnées de la présidence de l'université?",
+        "Comment contacter la présidence de l'UMP?",
+        "Adresse de la présidence universitaire"
+      ],
+      "en": [
+        "What are the contact details of the university presidency?",
+        "How to contact UMP presidency?",
+        "University presidency address"
+      ],
+      "ar": [
+        "ما هي معلومات الاتصال برئاسة الجامعة؟",
+        "كيف يمكن الاتصال برئاسة جامعة محمد الأول؟",
+        "عنوان رئاسة الجامعة"
+      ],
+      "amz": [
+        "Mani llan inermisen n tneglit n temdint?",
+        "Amek ara ɣeɣ tneglit n UMP?",
+        "Tansa n tneglit n temdint"
+      ]
+    },
+    "reponse": {
+      "fr": [
+        "La présidence de l'Université Mohammed Premier est située au BP 717, 60000 Oujda, Maroc. Vous pouvez les contacter au +212 536 202 020."
+      ],
+      "en": [
+        "The presidency of Mohammed Premier University is located at BP 717, 60000 Oujda, Morocco. You can contact them at +212 536 202 020."
+      ],
+      "ar": [
+        "رئاسة جامعة محمد الأول تقع في ص.ب 717، 60000 وجدة، المغرب. يمكنك الاتصال بهم على الرقم +212 536 202 020."
+      ],
+      "amz": [
+        "Tneglit n UMP tezga-d deg BP 717, 60000 Oujda, Lmerruk. Tzemred ad ten-teɣeḍ s +212 536 202 020."
+      ]
+    }
+  },
+  {
+    "intent": "university_presidency_fax",
+    "question": {
+      "fr": [
+        "Quel est le numéro de fax de la présidence?",
+        "Fax de l'administration centrale",
+        "Comment envoyer un fax à la présidence?"
+      ],
+      "en": [
+        "What is the presidency's fax number?",
+        "Central administration fax",
+        "How to send a fax to the presidency?"
+      ],
+      "ar": [
+        "ما هو رقم فاكس الرئاسة؟",
+        "فاكس الإدارة المركزية",
+        "كيف ترسل فاكسًا إلى الرئاسة؟"
+      ],
+      "amz": [
+        "Mani tga tiliɣri n fax n tneglit?",
+        "Fax n unabaḍ amatay",
+        "Amek ara tazneḍ fax ɣer tneglit?"
+      ]
+    },
+    "reponse": {
+      "fr": [
+        "Le numéro de fax de la présidence est le +212 536 202 020."
+      ],
+      "en": [
+        "The presidency's fax number is +212 536 202 020."
+      ],
+      "ar": [
+        "رقم فاكس الرئاسة هو +212 536 202 020."
+      ],
+      "amz": [
+        "Udrus n fax n tneglit d +212 536 202 020."
+      ]
+    }
+  },
+  {
+    "intent": "ciove_contact",
+    "question": {
+      "fr": [
+        "Qu'est-ce que le CIOVE et comment le contacter?",
+        "Coordonnées du CIOVE",
+        "Adresse du centre CIOVE"
+      ],
+      "en": [
+        "What is CIOVE and how to contact it?",
+        "CIOVE contact information",
+        "CIOVE center address"
+      ],
+      "ar": [
+        "ما هو CIOVE وكيف يمكن الاتصال به؟",
+        "معلومات الاتصال بـCIOVE",
+        "عنوان مركز CIOVE"
+      ],
+      "amz": [
+        "D acu i d CIOVE? Amek ara ɣeɣ?",
+        "Inermisen n CIOVE",
+        "Tansa n CIOVE"
+      ]
+    },
+    "reponse": {
+      "fr": [
+        "Le CIOVE est situé au Quartier Al Qods - BP 524, 60000 Oujda, Maroc. Vous pouvez les contacter au +212536502979."
+      ],
+      "en": [
+        "CIOVE is located at Quartier Al Qods - BP 524, 60000 Oujda, Morocco. You can contact them at +212536502979."
+      ],
+      "ar": [
+        "يقع CIOVE في حي القدس - ص.ب 524، 60000 وجدة، المغرب. يمكنك الاتصال بهم على الرقم +212536502979."
+      ],
+      "amz": [
+        "CIOVE yezga-d deg Quartier Al Qods - BP 524, 60000 Oujda, Lmerruk. Tzemred ad ten-teɣeḍ s +212536502979."
+      ]
+    }
+  },
+  {
+    "intent": "ciove_fax",
+    "question": {
+      "fr": [
+        "Quel est le numéro de fax du CIOVE?",
+        "Fax du centre CIOVE",
+        "Comment envoyer un fax au CIOVE?"
+      ],
+      "en": [
+        "What is CIOVE's fax number?",
+        "CIOVE center fax",
+        "How to send a fax to CIOVE?"
+      ],
+      "ar": [
+        "ما هو رقم فاكس CIOVE؟",
+        "فاكس مركز CIOVE",
+        "كيف ترسل فاكسًا إلى CIOVE؟"
+      ],
+      "amz": [
+        "Mani tga tiliɣri n fax n CIOVE?",
+        "Fax n CIOVE",
+        "Amek ara tazneḍ fax ɣer CIOVE?"
+      ]
+    },
+    "reponse": {
+      "fr": [
+        "Le numéro de fax du CIOVE est le +212536500609."
+      ],
+      "en": [
+        "CIOVE's fax number is +212536500609."
+      ],
+      "ar": [
+        "رقم فاكس CIOVE هو +212536500609."
+      ],
+      "amz": [
+        "Udrus n fax n CIOVE d +212536500609."
+      ]
+    }
+  },
+  {
+    "intent": "library_alternative_numbers",
+    "question": {
+      "fr": [
+        "Quels sont les autres numéros de la bibliothèque?",
+        "Numéros secondaires pour contacter la bibliothèque",
+        "Autres contacts bibliothèque"
+      ],
+      "en": [
+        "What are the library's alternative numbers?",
+        "Additional phone numbers for the library",
+        "Other library contact numbers"
+      ],
+      "ar": [
+        "ما هي الأرقام الأخرى للمكتبة؟",
+        "أرقام بديلة للاتصال بالمكتبة",
+        "أرقام اتصال أخرى للمكتبة"
+      ],
+      "amz": [
+        "Mani llan idrisen nniḍen n tamsult?",
+        "Idrisen nniḍen i wakken ad teɣeḍ tamsult",
+        "Inermisen nniḍen n tamsult"
+      ]
+    },
+    "reponse": {
+      "fr": [
+        "La bibliothèque dispose également des numéros secondaires suivants : +212 536 500 601 et +212 536 500 602."
+      ],
+      "en": [
+        "The library also has the following alternative numbers: +212 536 500 601 and +212 536 500 602."
+      ],
+      "ar": [
+        "تمتلك المكتبة أيضًا الأرقام البديلة التالية: +212 536 500 601 و +212 536 500 602."
+      ],
+      "amz": [
+        "Tamsult tesɛa daɣen idrisen nniḍen: +212 536 500 601 d +212 536 500 602."
+      ]
+    }
+  },
+  {
+    "intent": "faculty_website",
+    "question": {
+      "fr": [
+        "Quel est le site web de la faculté?",
+        "Adresse du site internet de la FSO",
+        "Où trouver le site web officiel?"
+      ],
+      "en": [
+        "What is the faculty's website?",
+        "FSO official website address",
+        "Where to find the official website?"
+      ],
+      "ar": [
+        "ما هو موقع الكلية الإلكتروني؟",
+        "عنوان الموقع الرسمي لكلية العلوم",
+        "أين يمكن العثور على الموقع الرسمي؟"
+      ],
+      "amz": [
+        "Mani tga asmel web n temdint?",
+        "Tansa n usmel web amaddud n FSO",
+        "Anida ara d-afɣeɣ asmel web uslig?"
+      ]
+    },
+    "reponse": {
+      "fr": [
+        "Le site web officiel de la faculté est : http://fso.ump.ma/"
+      ],
+      "en": [
+        "The faculty's official website is: http://fso.ump.ma/"
+      ],
+      "ar": [
+        "الموقع الإلكتروني الرسمي للكلية هو: http://fso.ump.ma/"
+      ],
+      "amz": [
+        "Asmel web uslig n temdint d: http://fso.ump.ma/"
+      ]
+    },
+    "meta": {
+      "fr": [
+        "http://fso.ump.ma/"
+      ],
+      "en": [
+        "http://fso.ump.ma/"
+      ],
+      "ar": [
+        "http://fso.ump.ma/"
+      ],
+      "amz": [
+        "http://fso.ump.ma/"
+      ]
+    }
+  },
+  {
+    "intent": "all_departments_list",
+    "question": {
+      "fr": [
+        "Quels sont tous les départements de la faculté?",
+        "Liste des départements de la FSO",
+        "Quels départements existent à la faculté des Sciences?"
+      ],
+      "en": [
+        "What are all the faculty departments?",
+        "List of FSO departments",
+        "Which departments exist at the Faculty of Science?"
+      ],
+      "ar": [
+        "ما هي جميع أقسام الكلية؟",
+        "قائمة أقسام كلية العلوم",
+        "ما هي الأقسام الموجودة بكلية العلوم؟"
+      ],
+      "amz": [
+        "Mani llan ikṛaḍen n temdint meṛṛa?",
+        "Tabdart n yikṛaḍen n FSO",
+        "Acu n ikṛaḍen i yellan deg Tamazirt n Tussna?"
+      ]
+    },
+    "reponse": {
+      "fr": [
+        "La faculté compte les départements suivants : Mathématiques, Physique, Chimie, Biologie et Informatique."
+      ],
+      "en": [
+        "The faculty has the following departments: Mathematics, Physics, Chemistry, Biology and Computer Science."
+      ],
+      "ar": [
+        "تضم الكلية الأقسام التالية: الرياضيات، الفيزياء، الكيمياء، البيولوجيا والمعلوماتية."
+      ],
+      "amz": [
+        "Temdint tesɛa ikṛaḍen-a: Tusnakt, Tafizikt, Takimya, Tussnant d Tignit."
+      ]
+    }
+  },
+  {
+    "intent": "department_contacts_general",
+    "question": {
+      "fr": [
+        "Comment contacter les différents départements?",
+        "Coordonnées des départements de la faculté",
+        "Qui contacter pour chaque département?"
+      ],
+      "en": [
+        "How to contact the different departments?",
+        "Faculty departments contact information",
+        "Who to contact for each department?"
+      ],
+      "ar": [
+        "كيف يمكن الاتصال بالأقسام المختلفة؟",
+        "معلومات الاتصال بأقسام الكلية",
+        "من تتصل به في كل قسم؟"
+      ],
+      "amz": [
+        "Amek ara ɣeɣ ikṛaḍen yemgaraden?",
+        "Inermisen n yikṛaḍen n temdint",
+        "Anwa ara ɣeɣ i yal aḥuddu?"
+      ]
+    },
+    "reponse": {
+      "fr": [
+        "Voici comment contacter les départements :",
+        "- Mathématiques : +212 536 500 630 ou math@fso.ump.ma",
+        "- Physique : +212 536 500 640 ou physique@fso.ump.ma",
+        "- Chimie : +212 536 500 650 ou chimie@fso.ump.ma",
+        "- Biologie : +212 536 500 660 ou biologie@fso.ump.ma",
+        "- Informatique : +212 536 500 670 ou info@fso.ump.ma"
+      ],
+      "en": [
+        "Here's how to contact the departments:",
+        "- Mathematics: +212 536 500 630 or math@fso.ump.ma",
+        "- Physics: +212 536 500 640 or physique@fso.ump.ma",
+        "- Chemistry: +212 536 500 650 or chimie@fso.ump.ma",
+        "- Biology: +212 536 500 660 or biologie@fso.ump.ma",
+        "- Computer Science: +212 536 500 670 or info@fso.ump.ma"
+      ],
+      "ar": [
+        "إليك كيفية الاتصال بالأقسام:",
+        "- الرياضيات: +212 536 500 630 أو math@fso.ump.ma",
+        "- الفيزياء: +212 536 500 640 أو physique@fso.ump.ma",
+        "- الكيمياء: +212 536 500 650 أو chimie@fso.ump.ma",
+        "- البيولوجيا: +212 536 500 660 أو biologie@fso.ump.ma",
+        "- المعلوماتية: +212 536 500 670 أو info@fso.ump.ma"
+      ],
+      "amz": [
+        "D-agi amek ara ɣeɣ ikṛaḍen:",
+        "- Tusnakt: +212 536 500 630 neɣ math@fso.ump.ma",
+        "- Tafizikt: +212 536 500 640 neɣ physique@fso.ump.ma",
+        "- Takimya: +212 536 500 650 neɣ chimie@fso.ump.ma",
+        "- Tussnant: +212 536 500 660 neɣ biologie@fso.ump.ma",
+        "- Tignit: +212 536 500 670 neɣ info@fso.ump.ma"
+      ]
+    }
+  },
+  {
+    "intent": "emergency_contacts_all",
+    "question": {
+      "fr": [
+        "Quels sont tous les numéros d'urgence?",
+        "Liste des contacts d'urgence",
+        "Qui appeler en cas d'urgence?"
+      ],
+      "en": [
+        "What are all the emergency numbers?",
+        "List of emergency contacts",
+        "Who to call in case of emergency?"
+      ],
+      "ar": [
+        "ما هي جميع أرقام الطوارئ؟",
+        "قائمة جهات الاتصال في حالات الطوارئ",
+        "من تتصل به في حالات الطوارئ؟"
+      ],
+      "amz": [
+        "Mani llan idrisen n lḥal meṛṛa?",
+        "Tabdart n yinermisen n lḥal",
+        "Anwa ara ssawleɣ deg lḥalat n lḥal?"
+      ]
+    },
+    "reponse": {
+      "fr": [
+        "Numéros d'urgence disponibles :",
+        "- Sécurité : +212 536 500 699",
+        "- Infirmerie : +212 536 500 700"
+      ],
+      "en": [
+        "Available emergency numbers:",
+        "- Security: +212 536 500 699",
+        "- Infirmary: +212 536 500 700"
+      ],
+      "ar": [
+        "أرقام الطوارئ المتاحة:",
+        "- الأمن: +212 536 500 699",
+        "- المستوصف: +212 536 500 700"
+      ],
+      "amz": [
+        "Idrisen n lḥal yellan:",
+        "- Laman: +212 536 500 699",
+        "- Tinfirmerit: +212 536 500 700"
+      ]
+    }
+  },
+  {
+    "intent": "secondary_address_library",
+    "question": {
+      "fr": [
+        "Où se trouve l'adresse secondaire de la bibliothèque?",
+        "Adresse alternative de la bibliothèque universitaire",
+        "Quelle est la deuxième adresse de la bibliothèque?"
+      ],
+      "en": [
+        "Where is the library's secondary address?",
+        "Alternative address of the university library",
+        "What is the library's second address?"
+      ],
+      "ar": [
+        "أين يقع العنوان الثانوي للمكتبة؟",
+        "عنوان بديل للمكتبة الجامعية",
+        "ما هو العنوان الثاني للمكتبة؟"
+      ],
+      "amz": [
+        "Anida i tezga tansa tis snat n tamsult?",
+        "Tansa nniḍen n tamsult n temdint",
+        "D acu tansa tis snat n tamsult?"
+      ]
+    },
+    "reponse": {
+      "fr": [
+        "L'adresse secondaire de la bibliothèque est : BP 457 - Campus universitaire, 60000 Oujda, Maroc."
+      ],
+      "en": [
+        "The library's secondary address is: BP 457 - University Campus, 60000 Oujda, Morocco."
+      ],
+      "ar": [
+        "العنوان الثانوي للمكتبة هو: ص.ب 457 - الحرم الجامعي، 60000 وجدة، المغرب."
+      ],
+      "amz": [
+        "Tansa tis snat n tamsult d: BP 457 - Campus universitaire, 60000 Oujda, Lmerruk."
+      ]
+    }
+  },
+  {
+    "intent": "presidency_vs_faculty_address",
+    "question": {
+      "fr": [
+        "Quelle est la différence entre l'adresse de la présidence et de la faculté?",
+        "Adresse faculté vs adresse présidence",
+        "Où se trouve la présidence par rapport à la faculté?"
+      ],
+      "en": [
+        "What's the difference between the presidency and faculty address?",
+        "Faculty address vs presidency address",
+        "Where is the presidency located compared to the faculty?"
+      ],
+      "ar": [
+        "ما هو الفرق بين عنوان الرئاسة وعنوان الكلية؟",
+        "عنوان الكلية مقابل عنوان الرئاسة",
+        "أين تقع الرئاسة مقارنة بالكلية؟"
+      ],
+      "amz": [
+        "D acu tebɣa gar n tansa n tneglit d tansa n temdint?",
+        "Tansa n temdint d tansa n tneglit",
+        "Anida tezga tneglit mgal temdint?"
+      ]
+    },
+    "reponse": {
+      "fr": [
+        "La faculté est située au Boulevard Mohamed VI, BP 717, tandis que la présidence est au BP 717 (même boîte postale) mais sans mention de boulevard."
+      ],
+      "en": [
+        "The faculty is located at Boulevard Mohamed VI, BP 717, while the presidency is at BP 717 (same PO box) but without boulevard mention."
+      ],
+      "ar": [
+        "تقع الكلية في شارع محمد السادس، ص.ب 717، بينما تقع الرئاسة في ص.ب 717 (نفس صندوق البريد) ولكن دون ذكر الشارع."
+      ],
+      "amz": [
+        "Temdint tezga-d deg Boulevard Mohamed VI, BP 717, mayan tneglit tezga-d deg BP 717 (akken kan ttebna) maca war asmizzwer n Boulevard."
+      ]
+    }
+  },
+  {
+    "intent": "ciove_location_details",
+    "question": {
+      "fr": [
+        "Où se trouve exactement le CIOVE?",
+        "Quartier précis du CIOVE",
+        "Comment localiser le CIOVE?"
+      ],
+      "en": [
+        "Where exactly is CIOVE located?",
+        "CIOVE precise neighborhood",
+        "How to locate CIOVE?"
+      ],
+      "ar": [
+        "أين يقع CIOVE بالضبط؟",
+        "الحي الدقيق لـCIOVE",
+        "كيف يمكن تحديد موقع CIOVE؟"
+      ],
+      "amz": [
+        "Anida i tezga CIOVE s tidet?",
+        "Taɣiwant n CIOVE s tidet",
+        "Amek ara d-afɣeɣ anida i tezga CIOVE?"
+      ]
+    },
+    "reponse": {
+      "fr": [
+        "Le CIOVE est situé dans le Quartier Al Qods (Quartier de Jérusalem) à Oujda, avec l'adresse postale BP 524, 60000 Oujda, Maroc."
+      ],
+      "en": [
+        "CIOVE is located in the Al Qods neighborhood (Jerusalem quarter) in Oujda, with postal address BP 524, 60000 Oujda, Morocco."
+      ],
+      "ar": [
+        "يقع CIOVE في حي القدس بوجدة، مع العنوان البريدي ص.ب 524، 60000 وجدة، المغرب."
+      ],
+      "amz": [
+        "CIOVE yezga-d deg taɣiwant Al Qods (Jerusalem) deg Oujda, s tansa n ttaburt BP 524, 60000 Oujda, Lmerruk."
+      ]
+    }
+  },
+  {
+    "intent": "all_faculty_emails",
+    "question": {
+      "fr": [
+        "Quels sont tous les emails de la faculté?",
+        "Liste complète des adresses email",
+        "Où trouver tous les emails officiels?"
+      ],
+      "en": [
+        "What are all the faculty emails?",
+        "Complete list of email addresses",
+        "Where to find all official emails?"
+      ],
+      "ar": [
+        "ما هي جميع عناوين البريد الإلكتروني للكلية؟",
+        "قائمة كاملة لعناوين البريد الإلكتروني",
+        "أين يمكن العثور على جميع البريدات الرسمية؟"
+      ],
+      "amz": [
+        "Mani llan imaylen n temdint meṛṛa?",
+        "Tabdart temlawt n tansiwin n yimaylen",
+        "Anida ara d-afɣeɣ akk imaylen usligen?"
+      ]
+    },
+    "reponse": {
+      "fr": [
+        "Voici les emails officiels de la faculté :",
+        "- Contact général : contact@fso.ump.ma",
+        "- Scolarité : scolarite@fso.ump.ma",
+        "- Administration : admin@fso.ump.ma",
+        "- Bibliothèque : bibliotheque@fso.ump.ma",
+        "- Support informatique : support@fso.ump.ma",
+        "- Directeur : directeur@fso.ump.ma",
+        "- Pédagogie : pedagogie@fso.ump.ma",
+        "- Mathématiques : math@fso.ump.ma",
+        "- Physique : physique@fso.ump.ma",
+        "- Chimie : chimie@fso.ump.ma",
+        "- Biologie : biologie@fso.ump.ma",
+        "- Informatique : info@fso.ump.ma"
+      ],
+      "en": [
+        "Here are the faculty's official emails:",
+        "- General contact: contact@fso.ump.ma",
+        "- Registrar: scolarite@fso.ump.ma",
+        "- Administration: admin@fso.ump.ma",
+        "- Library: bibliotheque@fso.ump.ma",
+        "- IT support: support@fso.ump.ma",
+        "- Director: directeur@fso.ump.ma",
+        "- Pedagogy: pedagogie@fso.ump.ma",
+        "- Mathematics: math@fso.ump.ma",
+        "- Physics: physique@fso.ump.ma",
+        "- Chemistry: chimie@fso.ump.ma",
+        "- Biology: biologie@fso.ump.ma",
+        "- Computer Science: info@fso.ump.ma"
+      ],
+      "ar": [
+        "إليك عناوين البريد الإلكتروني الرسمية للكلية:",
+        "- الاتصال العام: contact@fso.ump.ma",
+        "- التسجيل: scolarite@fso.ump.ma",
+        "- الإدارة: admin@fso.ump.ma",
+        "- المكتبة: bibliotheque@fso.ump.ma",
+        "- الدعم الفني: support@fso.ump.ma",
+        "- المدير: directeur@fso.ump.ma",
+        "- التربية: pedagogie@fso.ump.ma",
+        "- الرياضيات: math@fso.ump.ma",
+        "- الفيزياء: physique@fso.ump.ma",
+        "- الكيمياء: chimie@fso.ump.ma",
+        "- البيولوجيا: biologie@fso.ump.ma",
+        "- المعلوماتية: info@fso.ump.ma"
+      ],
+      "amz": [
+        "D-agi imaylen usligen n temdint:",
+        "- Anermas aɣelsan: contact@fso.ump.ma",
+        "- Aneklas: scolarite@fso.ump.ma",
+        "- Anabaḍ: admin@fso.ump.ma",
+        "- Tamsult: bibliotheque@fso.ump.ma",
+        "- Tallalt tetiknulujit: support@fso.ump.ma",
+        "- Anebdad: directeur@fso.ump.ma",
+        "- Tsenselkimt: pedagogie@fso.ump.ma",
+        "- Tusnakt: math@fso.ump.ma",
+        "- Tafizikt: physique@fso.ump.ma",
+        "- Takimya: chimie@fso.ump.ma",
+        "- Tussnant: biologie@fso.ump.ma",
+        "- Tignit: info@fso.ump.ma"
+      ]
+    }
+  },
+  {
+    "intent": "all_faculty_phones",
+    "question": {
+      "fr": [
+        "Quels sont tous les numéros de téléphone de la faculté?",
+        "Liste complète des contacts téléphoniques",
+        "Où trouver tous les numéros officiels?"
+      ],
+      "en": [
+        "What are all the faculty phone numbers?",
+        "Complete list of phone contacts",
+        "Where to find all official numbers?"
+      ],
+      "ar": [
+        "ما هي جميع أرقام الهاتف للكلية؟",
+        "قائمة كاملة لجهات الاتصال الهاتفية",
+        "أين يمكن العثور على جميع الأرقام الرسمية؟"
+      ],
+      "amz": [
+        "Mani llan idrisen n tiliɣri n temdint meṛṛa?",
+        "Tabdart temlawt n yinermisen n tiliɣri",
+        "Anida ara d-afɣeɣ akk idrisen usligen?"
+      ]
+    },
+    "reponse": {
+      "fr": [
+        "Voici les numéros officiels de la faculté :",
+        "- Standard : +212 536 500 600",
+        "- Scolarité : +212 536 500 601",
+        "- Administration : +212 536 500 602",
+        "- Bibliothèque : +212 536 500 610",
+        "- Support informatique : +212 536 500 620",
+        "- Directeur : +212 536 500 603",
+        "- Responsable pédagogique : +212 536 500 604",
+        "- Mathématiques : +212 536 500 630",
+        "- Physique : +212 536 500 640",
+        "- Chimie : +212 536 500 650",
+        "- Biologie : +212 536 500 660",
+        "- Informatique : +212 536 500 670",
+        "- Urgences sécurité : +212 536 500 699",
+        "- Urgences médicales : +212 536 500 700"
+      ],
+      "en": [
+        "Here are the faculty's official phone numbers:",
+        "- Main: +212 536 500 600",
+        "- Registrar: +212 536 500 601",
+        "- Administration: +212 536 500 602",
+        "- Library: +212 536 500 610",
+        "- IT support: +212 536 500 620",
+        "- Director: +212 536 500 603",
+        "- Pedagogical responsible: +212 536 500 604",
+        "- Mathematics: +212 536 500 630",
+        "- Physics: +212 536 500 640",
+        "- Chemistry: +212 536 500 650",
+        "- Biology: +212 536 500 660",
+        "- Computer Science: +212 536 500 670",
+        "- Security emergencies: +212 536 500 699",
+        "- Medical emergencies: +212 536 500 700"
+      ],
+      "ar": [
+        "إليك الأرقام الرسمية للكلية:",
+        "- الرئيسي: +212 536 500 600",
+        "- التسجيل: +212 536 500 601",
+        "- الإدارة: +212 536 500 602",
+        "- المكتبة: +212 536 500 610",
+        "- الدعم الفني: +212 536 500 620",
+        "- المدير: +212 536 500 603",
+        "- المسؤول التربوي: +212 536 500 604",
+        "- الرياضيات: +212 536 500 630",
+        "- الفيزياء: +212 536 500 640",
+        "- الكيمياء: +212 536 500 650",
+        "- البيولوجيا: +212 536 500 660",
+        "- المعلوماتية: +212 536 500 670",
+        "- طوارئ الأمن: +212 536 500 699",
+        "- طوارئ طبية: +212 536 500 700"
+      ],
+      "amz": [
+        "D-agi idrisen usligen n temdint:",
+        "- Amezwaru: +212 536 500 600",
+        "- Aneklas: +212 536 500 601",
+        "- Anabaḍ: +212 536 500 602",
+        "- Tamsult: +212 536 500 610",
+        "- Tallalt tetiknulujit: +212 536 500 620",
+        "- Anebdad: +212 536 500 603",
+        "- Anermas n tsenselkimt: +212 536 500 604",
+        "- Tusnakt: +212 536 500 630",
+        "- Tafizikt: +212 536 500 640",
+        "- Takimya: +212 536 500 650",
+        "- Tussnant: +212 536 500 660",
+        "- Tignit: +212 536 500 670",
+        "- Lḥalat n laman: +212 536 500 699",
+        "- Lḥalat n tussna: +212 536 500 700"
+      ]
+    }
+  }
+]
